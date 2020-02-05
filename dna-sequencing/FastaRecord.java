@@ -42,7 +42,7 @@ public class FastaRecord implements DNARecord {
 	}
 
 	/*
-	 * comparing defline and sequence to input of defline and sequence
+	 * comparing defline and sequence to input of defline and sequence 
 	 */
 	public boolean equals(Object o) {
 		FastaRecord that = (FastaRecord) o;
