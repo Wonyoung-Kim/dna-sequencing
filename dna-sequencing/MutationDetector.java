@@ -53,7 +53,6 @@ public class MutationDetector {
 						mutatedSubstring.length());
 				System.out.println(mutation);
 				result.add(mutation);
-
 			}
 		}
 		return result; // return null only if there are no mutations detected.
