@@ -37,7 +37,6 @@ public class MutationDetector {
 				String mutatedSubstring = "";
 				boolean mutationExists = true;
 				while (mutationExists) {
-
 					refSubstring += Character.toString(currentRefChar);
 					mutatedSubstring += Character.toString(mutationChar);
 					refIndex++;
