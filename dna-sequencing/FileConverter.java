@@ -29,7 +29,6 @@ public class FileConverter {
 		PrintWriter pw = new PrintWriter(fw);
 		FastaWriter faw = new FastaWriter(pw);
 		boolean done = false;
-
 		while (!done) {
 			try {
 				FastqRecord FR = fqr.readRecord();
