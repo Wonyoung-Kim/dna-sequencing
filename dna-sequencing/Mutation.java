@@ -35,7 +35,7 @@ public class Mutation {
 	public int getMutatedLength() {
 		return mutatedLength;
 	}
-
+	
 	public int getMutatedIndex() {
 		return index;
 	}
