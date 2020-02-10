@@ -55,9 +55,7 @@ public class MutationDetector {
 				result.add(mutation);
 
 			}
-
 		}
-
 		return result; // return null only if there are no mutations detected.
 	}
 }
